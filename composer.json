@@ -1,0 +1,26 @@
+{
+  "name": "stanwarri/larasocialplus",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Stanwarri\\SocialPlus\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/contracts": "5.1.*",
+    "illuminate/support": "5.1.*",
+    "illuminate/session": "5.1.*",
+    "illuminate/console": "5.1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Stanwarri\\SocialPlus\\Tests\\": "tests/"
+    }
+  }
+}
