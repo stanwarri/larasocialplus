@@ -6,9 +6,6 @@ use Illuminate\Session\SessionManager;
 use Illuminate\Session\Store;
 use Laravel\Socialite\SocialiteManager;
 
-/**
- * @author Laju Morrison <morrelinko@gmail.com>
- */
 class SocialPlus
 {
     /**
