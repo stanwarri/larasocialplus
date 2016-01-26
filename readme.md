@@ -14,6 +14,7 @@ Add this to your `composer.json` file
 ### Laravel 5.1:
 ``` bash
 "stanwarri/larasocialplus": "1.0.0"
+```
 
 ## Service Provider
 
