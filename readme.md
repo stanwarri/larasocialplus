@@ -5,9 +5,23 @@ Laravel 5 SocialPlus
 
 Add this to your `composer.json` file
 
+### Laravel 5.2:
+
+``` bash
+"stanwarri/larasocialplus": "dev-master"
+```
+
+### Laravel 5.1:
+``` bash
+"stanwarri/larasocialplus": "1.0.0"
+
+## Service Provider
+
 Append this to your list of service providers in `config/app.php`
 
-    'Stanwarri\SocialPlus\SocialPlusServiceProvider'
+``` php
+'Stanwarri\SocialPlus\SocialPlusServiceProvider'
+```
 
 Run the command below
 
