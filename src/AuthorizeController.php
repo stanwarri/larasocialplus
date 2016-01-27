@@ -3,7 +3,7 @@
 namespace Stanwarri\SocialPlus;
 
 use Exception;
-use Illuminate\Foundation\Bus\DispatchesCommands;
+use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
@@ -12,7 +12,7 @@ use Illuminate\Routing\Controller;
  */
 class AuthorizeController extends Controller
 {
-    use DispatchesCommands;
+    use DispatchesJobs;
 
     /**
      * @var \Stanwarri\SocialPlus\SocialPlus
