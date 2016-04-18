@@ -12,4 +12,4 @@ Route::group(['middleware' => ['web']], function () {
 	    'uses' => 'Stanwarri\SocialPlus\AuthorizeController@callback'
 	])->where('provider', 'facebook|twitter|linkedin|google');
 
-})
+});
